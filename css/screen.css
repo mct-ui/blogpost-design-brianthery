@@ -185,6 +185,61 @@ a:hover, a:focus {
   color: #1ABAFF;
 }
 
+/*
+  Components: type
+  ---
+  Special typography classes
+*/
+
+.c-type-meta {
+  font-size: 14px;
+  font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
+  line-height: 16px;
+}
+
+/*
+  Components Author
+*/
+
+.c-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.c-author__image {
+  width: 56px;
+  height: 56 px;
+  border-radius: 100%;
+  margin-right: 16px
+}
+
+.c-author__caption {
+  padding-top: 0px;
+}
+
+.c-author__name, .c-author__meta {
+  margin-bottom: 0;
+}
+
+.c-author__meta {
+  font-size: 14px;
+  font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
+  line-height: 16px;
+  margin-top: 4px;
+}
+
+.c-author__name {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/*
+  Utilities: Spacing
+  ---
+  Utility classes to put specific spacing values onto Elements
+*/
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
@@ -266,58 +321,3 @@ a:hover, a:focus {
     page-break-after: avoid;
   }
 }
-
-/*
-  Components: type
-  ---
-  Special typography classes
-*/
-
-.c-type-meta {
-  font-size: 14px;
-  font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
-  line-height: 16px;
-}
-
-/*
-  Components Author
-*/
-
-.c-author {
-  display: flex;
-  align-items: center;
-  margin-bottom: 48px;
-}
-
-.c-author__image {
-  width: 56px;
-  height: 56 px;
-  border-radius: 100%;
-  margin-right: 16px
-}
-
-.c-author__caption {
-  padding-top: 0px;
-}
-
-.c-author__name, .c-author__meta {
-  margin-bottom: 0;
-}
-
-.c-author__meta {
-  font-size: 14px;
-  font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
-  line-height: 16px;
-  margin-top: 4px;
-}
-
-.c-author__name {
-  font-size: 16px;
-  line-height: 16px;
-}
-
-/*
-  Utilities: Spacing
-  ---
-  Utility classes to put specific spacing values onto Elements
-*/
